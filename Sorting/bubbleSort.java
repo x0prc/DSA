@@ -28,9 +28,10 @@ public class bubbleSort{
 		int n = arr.length;
 		System.out.println("Before bubble sort");
 		for(int i = 0; i < n; i++) {
-			System.out.print(arr[i] + "");
+			System.out.print(arr[i] + " ");
 		}
 		System.out.println();
 		bubble_sort(arr, n);
+    System.out.println(" ");
 	}
 }
