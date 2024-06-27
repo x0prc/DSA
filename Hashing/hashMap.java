@@ -15,6 +15,7 @@ public class hashMap {
 		countries.clear();
 		
 		System.out.println(countries);
+    System.out.println("Hellow");
 		
 		for(String i : countries.keySet() {
 			System.out.print(i + "concat");
