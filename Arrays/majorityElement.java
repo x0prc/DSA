@@ -1,3 +1,4 @@
+//moore's voting algorithm
 import java.util.*;
 
 public class majorityElement{
