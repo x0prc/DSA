@@ -1,6 +1,6 @@
 import java.util.*;
 
-public alass inversionsCount {
+public class inversionsCount {
 	private static int merge(int[] arr, int low, int mid, int high){
 		ArrayList<Integer> temp = new ArrayList<>();
 		int left = low;
