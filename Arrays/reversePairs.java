@@ -53,8 +53,8 @@ public class reversePair {
         cnt += merge(arr, low, mid, high);  // merging sorted halves
         return cnt;
 	}
-	public static int team(int[] a, int n) {
-		return mergeSort(a, 0, n - 1); //number of pairs
+	public static int team(int[] skill, int n) {
+		return mergeSort(skill, 0, n - 1); //number of pairs
 	}
 		
 	public static void main(String[] args){
