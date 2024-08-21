@@ -1,6 +1,6 @@
 // traversal
 #include <stdio.h>
-#include <iostream>
+//#include <iostream.h>
 
 traverse(struct node* head)
 {
