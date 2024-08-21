@@ -1,6 +1,11 @@
 // traversal
 #include <stdio.h>
-//#include <iostream.h>
+#include <stdlib.h>
+
+struct node {
+  int data;
+  struct node *next;
+}
 
 traverse(struct node* head)
 {
