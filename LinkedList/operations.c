@@ -22,3 +22,14 @@ traverse(struct node* head)
   }
 }
 
+insertbeg(struct node *head, int info)
+{
+  struct node *new;
+  new = (struct node*) malloc(sizeof(struct node));
+  new -> data = info;
+  new -> next = head;
+  head = new;
+  return head;
+}
+
+
