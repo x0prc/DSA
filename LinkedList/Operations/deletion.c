@@ -66,3 +66,15 @@ while(ptr1 -> next != null){
 return head;
 
 }
+
+//driver code
+int main(){
+
+  struct node* head = createNode(2);
+  head -> next = createNode(3);
+  head -> next -> next = createNode(4);
+  head -> next -> next -> next = createNode(5);
+  head -> next -> next -> next -> next = createNode(6);
+
+  printList(head);
+}
