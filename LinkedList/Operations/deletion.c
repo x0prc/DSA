@@ -7,3 +7,4 @@ struct node {
 }
 
 // deletion from beginning
+
