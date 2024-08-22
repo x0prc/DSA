@@ -76,4 +76,16 @@ insertafter(struct node*head, int x, int info){
   return head;
 }
 
+int main() {
 
+    struct Node* head = createNode(2);
+    head->next = createNode(3);
+    head->next->next = createNode(4);
+    head->next->next->next = createNode(5);
+    head->next->next->next->next = createNode(6);
+
+    printf("Linked List:");
+    printList(head);
+
+    return 0;
+}
